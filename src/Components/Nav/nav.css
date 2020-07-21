@@ -1,0 +1,246 @@
+.navContener {
+  display: flex;
+  position: relative;
+}
+
+.navImg {
+  width: 100%;
+  height: 835px;
+}
+
+.Navabsalute {
+  position: absolute;
+  top: 100px;
+  left: 938px;
+  width: 412px;
+  height: 482px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 15px #00000029;
+  opacity: 1;
+}
+
+.topTitle {
+  padding-left: 32px;
+  padding-top: 19.4px;
+  letter-spacing: 0.18px;
+  color: #9a9a9a;
+  opacity: 1;
+}
+
+@font-face {
+  font-family: FontBlack;
+  src: url(../../assecs//font//LINETO-CIRCULAR-BLACK_0.TTF);
+}
+
+@font-face {
+  font-family: Font;
+  src: url(../../assecs//font//LINETO-CIRCULAR-PRO-BOOK_0.TTF);
+}
+
+.titleDolar {
+  font-family: FontBlack;
+  letter-spacing: 0.5px;
+  margin: 20px;
+  font-size: 40px;
+  text-align: left;
+  color: #000000;
+  opacity: 1;
+}
+
+.titleDolar span {
+  font-family: font;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #000000;
+  opacity: 1;
+}
+
+.subTitle {
+  text-align: left;
+  font-family: FontBlack;
+  font-size: 20px;
+  margin: 20px;
+  font: Book 25px/32px Circular;
+  letter-spacing: 0.25px;
+  color: #000000;
+  opacity: 1;
+}
+
+.salry {
+  width: 300px;
+  margin: 20px;
+  color: #777777;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DonationAmount {
+  width: 347px;
+  height: 50px;
+  border: 1px solid #bfbfbf;
+  opacity: 1;
+  padding-left: 20px;
+  outline: none;
+}
+
+.inputs section {
+  width: 34px;
+  padding-left: 5px;
+  margin-left: 133px;
+  border-left: 1px solid #c7c7c7;
+  position: absolute;
+}
+
+.DonateNowButton {
+  width: 306px;
+  height: 46px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: none;
+  box-shadow: 0px 3px 22px #00000070;
+  letter-spacing: 2.31px;
+  color: white;
+  opacity: 1;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.submit p {
+  letter-spacing: 0.18px;
+}
+
+.moreaboutit {
+  margin: 0;
+  border: 0;
+  letter-spacing: 0.1px;
+  font-family: FontBlack;
+}
+
+.checkIn {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  top: 515px;
+  left: 218px;
+  color: white;
+}
+
+.checkIn img {
+  padding-right: 10px;
+}
+
+.Hospital {
+  position: absolute;
+  letter-spacing: 0.5px;
+  font-family: FontBlack;
+  font-size: 40px;
+  color: #ffffff;
+  opacity: 1;
+  top: 510px;
+  left: 215px;
+  width: 772px;
+  height: 63px;
+}
+
+.save {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 600px;
+  left: 220px;
+}
+
+.save p {
+  color: white;
+  padding-left: 10px;
+}
+
+.rectangel {
+  position: absolute;
+  top: 700px;
+  left: 215px;
+  height: 11px;
+  background-color: white;
+  width: 1100px;
+  background: white;
+  border-radius: 40px;
+}
+
+.rectangel-items1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 11px;
+  border-radius: 40px;
+  background: #f11b5d 0% 0% no-repeat padding-box;
+}
+
+.item1 {
+  height: 9px;
+  width: 2px;
+  margin-left: 136px;
+  background-color: white;
+}
+
+.item2 {
+  height: 9px;
+  width: 2px;
+  margin-left: 136px;
+  background-color: white;
+}
+
+.item3 {
+  height: 9px;
+  width: 2px;
+  margin-left: 80px;
+  background-color: white;
+}
+
+.rectangel-items2 {
+  position: absolute;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 11px;
+  border-radius: 40px;
+  background: #f11b5d47;
+}
+
+.progress {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100px;
+  top: 700px;
+  left: 680px;
+}
+
+.collection {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100px;
+  top: 700px;
+  left: 910px;
+}
+
+.progress span {
+  font-family: FontBlack;
+}
+
+.collection span {
+  font-family: FontBlack;
+}

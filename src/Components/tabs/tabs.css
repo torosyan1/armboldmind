@@ -1,0 +1,167 @@
+@font-face {
+  font-family: FontBlack;
+  src: url(../../assecs//font//LINETO-CIRCULAR-BLACK_0.TTF);
+}
+
+@font-face {
+  font-family: Font;
+  src: url(../../assecs//font//LINETO-CIRCULAR-PRO-BOOK_0.TTF);
+}
+
+.contenier {
+  display: flex;
+  align-items: center;
+  height: 94px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 13px #00000029;
+  opacity: 1;
+}
+
+.tab1 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  flex-direction: row;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  font-family: FontBlack;
+  height: 100%;
+  border-bottom: 2px solid #f11b5d;
+}
+
+.Comments {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-family: Font;
+  height: 100%;
+}
+
+.contener2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 750px;
+}
+
+.text1 {
+  font-family: Font;
+  width: 60px;
+  padding-right: 30px;
+  border-right: 1px solid #e6e6e6;
+  opacity: 1;
+}
+
+.text2 {
+  font-family: Font;
+  width: 50px;
+  padding-left: 20px;
+}
+
+.text2 span {
+  font-family: FontBlack;
+}
+
+.text1 span {
+  font-family: FontBlack;
+}
+
+.largeText {
+  width: 50%;
+  font-family: Font;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.largeText span {
+  font-family: FontBlack;
+}
+
+.contener3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Donats {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 80px;
+  width: 400px;
+  height: 570px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 11px #00000029;
+  opacity: 1;
+}
+
+.donats_p {
+  font-family: FontBlack;
+  margin-right: 65%;
+}
+
+.ul_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 350px;
+  margin: 20;
+  padding: 0;
+}
+
+.li_list {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.li_list img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  width: 100%;
+  font-family: Font;
+  padding-left: 30px;
+}
+
+.data p {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.nowData {
+  color: #858585;
+  font-size: 10px;
+}
+
+.fullName span {
+  color: #f11b5d;
+  margin-left: auto;
+}
+
+.li_list:last-child {
+  border: 0;
+}
+
+.shear {
+  font-family: FontBlack;
+  padding-top: 20px;
+  padding-left: 90px;
+}
+
+.shear img {
+  padding-right: 10px;
+}
